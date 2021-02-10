@@ -28,9 +28,10 @@
 
     <!--NAVBAR (COMPONENTE DE BOOTSTRAP 2)-->
     
-    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-info">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-transparent">
         
-        <a class="navbar-brand text-white" href="#">Viajes Chile</a>
+        
+        <a class="navbar-brand text-white" href="#"><img class="mysvg" src="assets/img/viajes.svg" srcset="assets/img/viajes.svg" alt="My logo"> Viajes Chile</a>
 
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -79,16 +80,17 @@
         </a>
     </div>
 
-    <!--QUIENES SOMOS-->
+    <!--QUIENES SOMOS + (tooltips en los favicons)-->
 
     <section id="quienesomos" class="container text-center my-5">
         <h4 class="my-4">¿Quienes somos?</h4>
         
-        <div class="row"> 
+        <div class="row">
 
           <div class="col-md-4">
             <div class="fondo-favicon">
-                <i class="fas fa-plane my-3"></i>
+                <i class="fas fa-plane my-3" data-toggle="tooltip" data-placement="top" title="Viajes en avión"></i>
+                
             </div>
             
             <p class="my-3 text-justify">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime at labore quam adipisci magni odio quae, autem fugit beatae unde dignissimos omnis voluptates tenetur voluptatum ipsum aut. Fuga, nihil cumque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt aliquid, explicabo aut maxime beatae tempore rem doloribus voluptatum earum necessitatibus unde provident nam reprehenderit aliquam hic facilis cupiditate porro architecto. Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
@@ -98,13 +100,13 @@
             <p class="my-3 text-justify">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime at labore quam adipisci magni odio quae, autem fugit beatae unde dignissimos omnis voluptates tenetur voluptatum ipsum aut. Fuga, nihil cumque. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam repellendus, enim error officiis iste voluptatum, beatae exercitationem blanditiis fugiat iusto esse? Repellat nulla accusamus adipisci fugiat possimus numquam omnis pariatur. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             
             <div class="fondo-favicon">
-                <i class="fas fa-mountain my-3"></i>
+                <i class="fas fa-mountain my-3" data-toggle="tooltip" data-placement="top" title="Montañismo" ></i>
             </div>
           </div>
 
           <div class="col-md-4">
             <div class="fondo-favicon">
-                <i class="fas fa-route my-3"></i>
+                <i class="fas fa-route my-3" data-toggle="tooltip" data-placement="top" title="Rutas guiadas"></i>
 
             </div>
             <p class="my-3 text-justify"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime at labore quam adipisci magni odio quae, autem fugit beatae unde dignissimos omnis voluptates tenetur voluptatum ipsum aut. Fuga, nihil cumque. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et neque, quos soluta minus accusantium eveniet at error deserunt, nihil tempore corrupti saepe eligendi repellat animi nisi voluptas earum. Quae, dolor? Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -162,10 +164,21 @@
     <!--FOOTER (VIAJES CHILE)-->
 
     <footer id="piedepagina" class="fondo-footer">
-        <a href="#"><i class="fab fa-github-square"></i></a>
-        <a href="#"><i class="fab fa-linkedin"></i></a>       
-        <a href="#"><i class="fab fa-twitter-square"></i></a>        
-        <a href="#"><i class="fab fa-facebook-square"></i></a>
+
+        <div class="row">
+            <div class="col-8 text-left">
+                <h3>VIAJES CHILE</h3>
+            </div>
+            <div class="col-4 text-right">
+
+                <a href="https://github.com" target="_blank"><i class="fab fa-github-square"></i></a>
+                <a href="https://www.linkedin.com" target="_blank" ><i class="fab fa-linkedin"></i></a>       
+                <a href="https://twitter.com/home" target="_blank"><i class="fab fa-twitter-square"></i></a>        
+                <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-square"></i></a>
+
+            </div>
+          </div>
+        
     </footer>
 
 
