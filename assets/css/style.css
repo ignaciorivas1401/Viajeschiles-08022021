@@ -1,0 +1,24 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    background-color: black;
+    color: white;
+}
+
+.fondo-favicon{
+    background-color: #33ccff;
+}
+
+.fondo-card{
+    background-color: #33ccff;
+}
+
+.fondo-footer{
+    background-color: #33ccff;
+    color:white;
+}
+
+.fondo-footer a{
+    color: white;
+    text-decoration: none;
+}
+
