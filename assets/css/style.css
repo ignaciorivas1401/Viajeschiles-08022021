@@ -4,6 +4,10 @@ body{
     color: white;
 }
 
+.navbar a{
+    color: white !important;
+} 
+
 .fondo-favicon{
     background-color: #33ccff;
 }
@@ -25,4 +29,11 @@ body{
 .mysvg{
     width: 30px;
     height: 30px;
+}
+
+.linea-1{
+    width: auto;
+    height: 3.5px;
+    background-color: #33ccff;
+    margin-bottom: 2%;
 }
